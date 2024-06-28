@@ -32,8 +32,8 @@ Ensure you have the following installed on your system:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/rust-actix-boilerplate.git
-   cd rust-actix-boilerplate
+   git clone https://github.com/ameeqcode/ameeq-rust-actix-boilerplate.git
+   cd ameeq-rust-actix-boilerplate
    ```
 
 2. Set up the environment variables:
