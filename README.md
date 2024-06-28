@@ -6,6 +6,18 @@ Welcome to the Rust Actix Boilerplate! This repository provides a starting point
 
 These instructions will help you set up the project on your local machine for development and testing purposes.
 
+## Features
+
+This boilerplate has following features:
+
+### 1. Embedded Migrations
+
+The diesel migration written are automatically embedded in the project. This help when you are staging the project and the migrations run automatically on staging database
+
+### 2. Enviroment Configuration
+
+The config folder has the development and production enviroment variables which are configurable and are automatically called in the code based on the type of build i-e production build or development build.
+
 ## Prerequisites
 
 Ensure you have the following installed on your system:
