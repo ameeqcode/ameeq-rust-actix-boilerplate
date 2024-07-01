@@ -38,13 +38,14 @@ Ensure you have the following installed on your system:
 
 2. Set up the environment variables:
 
-   Create a `.env` file in the project root and add the following:
+   Update the `.env` file in the project root according to your own database credentials:
 
    ```env
    DATABASE_URL=postgres://username:password@localhost/database_name
    ```
+   This is required if you want to run diesel CLI commands on your local development enviroment.
 
-3. Install Diesel CLI:
+3. Install Diesel CLI (PostgresSQL Database):
 
    ```sh
    cargo install diesel_cli --no-default-features --features postgres
@@ -68,7 +69,7 @@ To run the project in development mode, use:
 
 To create a new migration, use the following command:
 
-    diesel migration generate create_users_table
+    diesel migration generate your_table_name
     
 ### Running a Migration
 
